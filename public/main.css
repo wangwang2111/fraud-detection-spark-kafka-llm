@@ -1,0 +1,104 @@
+/* App background and text */
+.stApp {
+    background-color: #0D1117;
+    color: #C9D1D9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.stSidebar {
+    background-color: #161B22;
+    color: #C9D1D9;
+}
+
+.stSidebar h1, .stSidebar h2, .stSidebar h3 {
+    color: #58A6FF;
+}
+
+/* Titles */
+h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
+    color: #F0F6FC;
+}
+
+/* Tabs */
+div[data-baseweb="tab"] button {
+    background-color: transparent !important;
+    color: #8B949E !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+div[data-baseweb="tab"] button[aria-selected="true"] {
+    color: #58A6FF !important;
+    border-bottom: 2px solid #58A6FF !important;
+}
+
+/* TextArea */
+textarea {
+    background-color: #161B22 !important;
+    color: #C9D1D9 !important;
+    border: 1px solid #30363D !important;
+    border-radius: 10px !important;
+    padding: 10px;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #238636;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #2EA043;
+}
+
+/* File Uploader */
+.stFileUploader {
+    background-color: #161B22 !important;
+    border: 1px dashed #30363D !important;
+    border-radius: 10px;
+}
+
+/* Expander Headers */
+.stExpanderHeader {
+    color: #C9D1D9 !important;
+    font-weight: 600;
+}
+
+/* Metrics */
+.stMetric {
+    text-align: center;
+    color: #F0F6FC !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #30363D;
+    border-radius: 10px;
+}
+
+/* Slider Track */
+.stSlider > div[data-baseweb="slider"] {
+    background-color: transparent;
+}
+
+/* Hide Streamlit footer & menu */
+footer, .css-1lsmgbg.e1nzilvr5 { visibility: hidden; }
+
+.stTextArea textarea {
+  min-height: 180px !important;
+}
+.stDownloadButton {
+  margin-top: 10px;
+}
+.stExpanderHeader {
+  font-weight: bold;
+}
