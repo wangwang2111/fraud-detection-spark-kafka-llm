@@ -32,9 +32,9 @@ tenacity==8.3.0
 ├── fraud_detection_spark.py          # Model training, evaluation, selection, and saving
 ├── utils/
 │   ├── kafka_utils.py               # Kafka integration utilities
-│   └── agent_api.py                 # DeepSeek API + prediction wrapper
+│   ├── agent_api.py                 # DeepSeek API + prediction wrapper
+│   └── .env                           # Configuration file (API keys, paths, etc.)
 ├── app_ui.py                        # Streamlit interface for real-time prediction and explanation
-├── .env                             # Configuration file (API keys, paths, etc.)
 ├── dialogue_classification_model/   # Saved Spark pipeline model
 ├── requirements.txt                 # All versions of required libraries
 ```
