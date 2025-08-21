@@ -2,6 +2,8 @@
 
 This project provides a scalable, real-time scam detection system for transcribed phone dialogues using interpretable machine learning (Decision Trees), Kafka streaming, and LLM-based explanation. It includes a Spark-based backend for model training and a Streamlit frontend with DeepSeek-powered analysis.
 
+Web-interface-image: ![Web Interface](https://github.com/wangwang2111/fraud-detection-spark-kafka-llm/blob/main/reports/web-interface-example.png)
+
 ## ✅ Requirements
 
 - Python ≥ 3.10
